@@ -1,0 +1,140 @@
+*{
+    margin: 0px 40px 0px 40px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+   
+    
+}
+.nav ul li{
+    margin: 0px -20px;
+    font-size: 20px;
+    
+}
+.nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav h2{
+    font-size: 40px;
+    color: rgb(123, 64, 233);
+}
+
+/*...................................en tête.........................................*/
+
+.info h1 p button{
+    margin-right: -30px;
+}
+
+.en-tete{
+    padding-bottom: 70px;
+    margin: 70px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.en-tete button{
+    margin-top: 20px;
+    padding: 20px 40px;
+    color: rgb(252, 252, 252);
+    background-color: rgb(123, 64, 233);
+
+}
+.en-tete img{
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.en-tete h1{
+    font-size: 5rem;
+}
+
+/*...................................image.........................................*/
+
+.formation img{
+    height: 7rem;
+    width: 13rem;
+}
+
+/*...................................information personnelle.........................................*/
+
+.experience{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+.experience h1{
+    font-size: 8rem;
+    color: rgb(123, 64, 233);
+    
+}
+.experience p{
+    font-size: 2rem;
+    display: flex;
+}
+
+/*....................cart ...............*/
+
+.cart0{
+    display: flex;
+    justify-content: space-between;
+    border: 5rem solid #ff00;
+background-color: rgb(216, 215, 215);
+height: 4rem;
+width: 4rem;
+    
+}
+
+.cart{
+margin-left: 300px;
+margin-top: -5rem;
+
+
+
+
+}
+.cart2{
+margin-top: -5rem;
+border: 5rem solid #ff00;
+background-color: rgb(216, 215, 215);
+height: 4rem;
+width: 4rem;
+margin-right: 3px;
+    
+}
+.cart3{
+margin-top: -5rem;
+border: 5rem solid #ff00;
+background-color: rgb(216, 215, 215);
+height: 4rem;
+width: 4rem;
+
+}
+
+.cart p{
+    
+   
+   
+
+
+}
+.experience h1{
+    margin-right: -20px;
+}
+h3{
+    margin-right: 20rem;
+}
+    
