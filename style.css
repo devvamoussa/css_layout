@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
-
 *{
     margin: 0px;
     padding: 0px;
@@ -28,6 +26,7 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     
+    
 }
 .nav ul{
     display: flex;
@@ -36,9 +35,8 @@ body{
     
 }
 .nav ul li{
-    margin: 0px -20px;
     font-size: 20px;
-    
+    margin: 15px;
 }
 .nav ul li a{
     color: black;
@@ -83,8 +81,8 @@ body{
 /*...................................image.........................................*/
 
 .formation img{
-    height: 7rem;
-    width: 13rem;
+    height: 9rem;
+    width: 17rem;
 }
 
 /*...................................information personnelle.........................................*/
@@ -142,14 +140,6 @@ height: 4rem;
 width: 4rem;
 
 }
-
-.cart p{
-    
-   
-   
-
-
-}
 .experience h1{
     margin-right: -20px;
 }
@@ -160,9 +150,8 @@ width: 4rem;
 
 .work--experience{
     display : flex;
-    border : 1px solid red;
 
-    margin-bottom: 20px;
+    margin-top: 30px;
  
 
 }
@@ -176,19 +165,29 @@ margin-left: 0.75rem;
 
 .experience--1{
     flex-basis: 30%;
-    border : 1px solid red;
+    padding-top: 10px;
 }
 
 .experience--2{
     flex-basis: 70%;
-    border : 1px solid red;
+    
+}
+.experience--2{
+    margin-top: 5rem;
+}
+.experience--2 h1{
+    font-size: 2rem;
 }
 
 .work-items{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 5rem;
     width: 100%;
     
+}
+.work--item:hover{
+    background-color: rgb(123, 64, 233);
+    transform: 2px;
 }
 
 .work--item-1{
@@ -203,7 +202,7 @@ margin-left: 0.75rem;
     height: 250px;
     background-color :lightgray;
     width : 31%;
-    margin-left: 0.75rem;
+    margin-left: 0.70rem;
     text-align : center;
 }
 
@@ -221,6 +220,131 @@ margin-left: 0.75rem;
     color: white;
 
 }
+.work--item{
+    position: relative;
+}
+.work--item-2--content{
+    position : absolute;
+    left: 3rem;
+    bottom: 2rem;
+}
+.work--item-3--content{
+    position : absolute;
+    left: 3rem;
+    bottom: 2rem;
+}
+.commentaire{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.commentaire--2{
+    margin-top: 2rem;
+    color: rgb(123, 64, 233);
+    background-color: #ff00;
+}
+
+.container1{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.container1 img{
+    margin:15px;
+    animation-duration: 20s;
+    animation-name: maquette;
+    animation-iteration-count: infinite;
+    
+   
+    
+}
+.img2{
+    margin-top: 15px;
+    
+}
+.img3{
+    height: 250px;
+    overflow:hidden;
+    border: 1px solid rgb(155, 152, 152);
+    margin-left: 15px;
+    margin-bottom: 15px;
+   
+}
+
+
+@keyframes maquette{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(-400px);
+    }
+    75%{
+        transform: translateY(-600px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+    
+}
+.container2{
+    display: flex;
+}
+.footer img{
+    height: 4rem;
+    border-radius: 50%;
+    border:2px solid rgb(123, 64, 233) ;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    background-color: rgb(205, 220, 235);
+}
+.footer--central{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    height: 240px;
+    background-color :rgb(253, 253, 253);
+    text-align : center;
+    margin: 15px;
+    width: 300px;
+    color: rgb(123, 64, 233);
+}
+.footer1 p{
+    margin-top: 18px;
+    margin-bottom: 3px;
+}
+.footer1 h3{
+    margin-top: 10px;
+    color:rgb(158, 158, 157)
+}
+.footer1 img{
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 576px)
 {
