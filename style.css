@@ -12,6 +12,7 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 
@@ -152,6 +153,7 @@ width: 4rem;
     display : flex;
 
     margin-top: 30px;
+    
  
 
 }
@@ -184,10 +186,11 @@ margin-left: 0.75rem;
     margin-top: 5rem;
     width: 100%;
     
+    
 }
 .work--item:hover{
     background-color: rgb(123, 64, 233);
-    transform: 2px;
+    
 }
 
 .work--item-1{
@@ -196,6 +199,9 @@ margin-left: 0.75rem;
     width : 31%;
     margin-left: 0.75rem;
     position: relative;
+    border-radius: 5%;
+    box-shadow: 1px 2px 3px 2px;
+    transition: ease-in-out(.3s);
 }
 
 .work--item{
@@ -204,6 +210,9 @@ margin-left: 0.75rem;
     width : 31%;
     margin-left: 0.70rem;
     text-align : center;
+    border-radius: 5%;
+    box-shadow: 0px 0px 23px -5px rgb(0 0 0 / 18%);
+    transition: ease-in-out(.3s);
 }
 
 .work--item-1--content{
@@ -246,21 +255,20 @@ margin-left: 0.75rem;
     background-color: #ff00;
 }
 
-.container1{
-    margin-left: 20%;
-    margin-right: 20%;
-}
+
 
 .container1{
   display: flex;
   flex-wrap: wrap;
   
+  
 }
 .container1 img{
-    margin:15px;
-    animation-duration: 20s;
-    animation-name: maquette;
     animation-iteration-count: infinite;
+    height: auto;
+    width: 100%;
+    transition: ease-in-out 3s;
+    object-fit: cover;
     
    
     
@@ -269,17 +277,28 @@ margin-left: 0.75rem;
     margin-top: 15px;
     
 }
+.img3:hover img{
+    transform: translateY(calc(-100% + 300px));
+    
+
+   
+}
 .img3{
     height: 250px;
     overflow:hidden;
     border: 1px solid rgb(155, 152, 152);
     margin-left: 15px;
     margin-bottom: 15px;
+    flex-basis: 31%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 23px -5px rgb(0 0 0 / 18%);
+    
+    
    
 }
 
 
-@keyframes maquette{
+/* @keyframes maquette{
     0%{
         transform: translateY(0);
     }
@@ -294,9 +313,9 @@ margin-left: 0.75rem;
     }
     100%{
         transform: translateY(0);
-    }
+    } */
     
-}
+
 .container2{
     display: flex;
 }
@@ -377,4 +396,60 @@ margin-left: 0.75rem;
     .container {
         max-width: 1140px;
     }
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.form-{
+    display: flex;
+
+}
+.form--text{
+    flex-basis: 75%;
+}
+.form--text h2{
+    color:rgb(112, 113, 114);
+    margin-bottom: 20px;
+    
+}
+.form--text p{
+    margin-bottom: 20px;
+}
+.form--inp{
+    color:rgb(112, 113, 114);
+   
+}
+.form-{
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.form- input{
+    background-color: rgb(189, 189, 235);
+    font-size: 20px;
+    display: flex;
+    
+    margin: 2px;
+    padding: 20px;
+    width: 100%;
+}
+.form--text a{
+    text-decoration: none;
+    color: rgb(123, 64, 233);
+}
+.fin{
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.fin p{
+    margin-top: 10px;
+    border-color: 1px solid red;
+   
+}
+.form- button{
+    padding: 20px;
 }
